@@ -74,9 +74,6 @@ export default function Header() {
                             <DropdownMenuItem asChild>
                                 <Link href="">Отзывы</Link>
                             </DropdownMenuItem>
-                            <DropdownMenuItem asChild>
-                                <Link href="https://vk.com/riffls?from=search">Равиль гей</Link>
-                            </DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
                 </div>

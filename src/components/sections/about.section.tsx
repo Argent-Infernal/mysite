@@ -5,10 +5,8 @@ import HorizontalLine from "../ui/Custom/Horizontal-line";
 
 export default function AboutSection() {
     return (
-        <div className="flex flex-col items-center justify-start h-screen border-t">
-            <div className="text-center my-8">
-                <h1 className="text-4xl">О себе</h1>
-            </div>
+        <div className="flex flex-col items-center justify-start border-t mb-8">
+            <h1 className="text-4xl my-8">О себе</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
                 <Card className="shadow-lg transition-transform transform hover:scale-105">
                     <CardHeader>
